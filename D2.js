@@ -4,23 +4,52 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const num1 = 4
+const num2 = 6
+
+if (num1 > num1) {
+  console.log("Il numero più maggiore è:", num1)
+} else {
+  console.log("Il numero più maggiore è:", num2)
+}
+
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const notEqual = 6
+if (notEqual !== 5) {
+  console.log("not equal")
+}
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const divBy = 1000000
+const divBy5 = divBy % 5
+if (divBy % 5 === 0) {
+  console.log("Il numero della variabile è divisibile per 5 perché il suo risultato è: " + divBy5)
+}
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const aa = 4
+const bb = 4
+const cc = 8
+
+if (aa || bb || cc === 8) {
+  console.log("Uno dei numeri interi è 8")
+}
+
+if (aa + bb === 8) {
+  console.log("La somma è 8")
+}
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
@@ -29,6 +58,25 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const totalShoppingCart = 350
+const prezzoMinimo = 50
+const costoSpedizione = 10
+const differenzaPromozione = prezzoMinimo - totalShoppingCart
+const promo20 = (totalShoppingCart * 20) / 100
+const diffPromo20 = prezzoMinimo - promo20
+
+if (totalShoppingCart >= prezzoMinimo) {
+  console.log(
+    "Congratulazioni, non pagherai le spese di spedizione. Il totale è " + totalShoppingCart,
+  )
+} else {
+  console.log(
+    "Ti mancano solo " +
+      differenzaPromozione +
+      "€ per non pagare la spedizione. Il totale è " +
+      totalShoppingCart,
+  )
+}
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
@@ -36,6 +84,13 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+if (promo20 >= prezzoMinimo) {
+  console.log("Congratulazioni, non pagherai le spese di spedizione. Il totale è " + promo20)
+} else {
+  console.log(
+    "Ti mancano solo " + diffPromo20 + "€ per non pagare la spedizione. Il totale è " + promo20,
+  )
+}
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
@@ -76,9 +131,9 @@
 */
 
 const me = {
-  name: 'John',
-  lastName: 'Doe',
-  skills: ['javascript', 'html', 'css'],
+  name: "John",
+  lastName: "Doe",
+  skills: ["javascript", "html", "css"],
 }
 
 /* SCRIVI QUI LA TUA RISPOSTA */
