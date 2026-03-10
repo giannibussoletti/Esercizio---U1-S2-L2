@@ -74,7 +74,8 @@ if (totalShoppingCart >= prezzoMinimo) {
     "Ti mancano solo " +
       differenzaPromozione +
       "€ per non pagare la spedizione. Il totale è " +
-      totalShoppingCart,
+      totalShoppingCart +
+      costoSpedizione,
   )
 }
 
