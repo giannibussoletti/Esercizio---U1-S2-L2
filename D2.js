@@ -117,7 +117,6 @@ if (gg > hh && gg > ii) {
 } else {
   console.log(ii + " > " + hh + " > " + gg)
 }
-
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
