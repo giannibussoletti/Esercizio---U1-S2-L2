@@ -104,6 +104,11 @@ const gg = 7
 const hh = 30
 const ii = -1
 
+const ordinareArray = [gg, hh, ii]
+ordinareArray.sort()
+console.log(ordinareArray)
+
+// Primo algoritmo prima di usare .sort
 // if (gg > hh && gg > ii) {
 //   console.log(gg + " > " + hh + " > " + ii)
 // } else if (gg > ii && gg > hh) {
@@ -117,10 +122,6 @@ const ii = -1
 // } else {
 //   console.log(ii + " > " + hh + " > " + gg)
 // }
-
-const ordinareArray = [gg, hh, ii]
-ordinareArray.sort()
-console.log(ordinareArray)
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
