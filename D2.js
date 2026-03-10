@@ -7,7 +7,7 @@
 const num1 = 4
 const num2 = 6
 
-if (num1 > num1) {
+if (num1 > num2) {
   console.log("Il numero più maggiore è:", num1)
 } else {
   console.log("Il numero più maggiore è:", num2)
@@ -30,7 +30,7 @@ if (notEqual !== 5) {
 /* SCRIVI QUI LA TUA RISPOSTA */
 const divBy = 1000000
 const divBy5 = divBy % 5
-if (divBy % 5 === 0) {
+if (divBy5 === 0) {
   console.log("Il numero della variabile è divisibile per 5 perché il suo risultato è: " + divBy5)
 }
 
