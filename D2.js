@@ -105,25 +105,24 @@ const gg = 7
 const hh = 30
 const ii = -1
 
+// Primo algoritmo prima di usare .sort
+if (gg > hh && gg > ii) {
+  console.log(gg + " > " + hh + " > " + ii)
+} else if (gg > ii && gg > hh) {
+  console.log(gg + " > " + ii + ">" + hh)
+} else if (hh > gg && hh > ii) {
+  console.log(hh + " > " + gg + " > " + ii)
+} else if (hh > ii && hh > gg) {
+  console.log(hh + " > " + ii + " > " + gg)
+} else if (ii > gg && ii > hh) {
+  console.log(ii + " > " + gg + " > " + hh)
+} else {
+  console.log(ii + " > " + hh + " > " + gg)
+}
+
 const ordinareArray = [gg, hh, ii]
 ordinareArray.sort()
 console.log(ordinareArray)
-
-// Primo algoritmo prima di usare .sort
-// if (gg > hh && gg > ii) {
-//   console.log(gg + " > " + hh + " > " + ii)
-// } else if (gg > ii && gg > hh) {
-//   console.log(gg + " > " + ii + ">" + hh)
-// } else if (hh > gg && hh > ii) {
-//   console.log(hh + " > " + gg + " > " + ii)
-// } else if (hh > ii && hh > gg) {
-//   console.log(hh + " > " + ii + " > " + gg)
-// } else if (ii > gg && ii > hh) {
-//   console.log(ii + " > " + gg + " > " + hh)
-// } else {
-//   console.log(ii + " > " + hh + " > " + gg)
-// }
-
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
