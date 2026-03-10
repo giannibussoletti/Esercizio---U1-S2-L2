@@ -43,7 +43,7 @@ const aa = 4
 const bb = 4
 const cc = 8
 
-if (aa || bb || cc === 8) {
+if (aa === 8 || bb === 8 || cc === 8) {
   console.log("Uno dei numeri interi è 8")
 }
 
