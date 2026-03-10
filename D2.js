@@ -208,7 +208,8 @@ console.log(me)
 /* SCRIVI QUI LA TUA RISPOSTA */
 arrayNum = []
 
-arrayNum.splice(0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+// arrayNum.splice(0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+arrayNum.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 console.log(arrayNum)
 
 /* ESERCIZIO 15
